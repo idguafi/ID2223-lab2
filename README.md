@@ -3,7 +3,7 @@ Lab assignment 2 in ID2223
 
 Authored by Sam Barati and Joel Maharena 
 
-Space: https://huggingface.co/spaces/coolestGuyEver/iris   
+Space: https://huggingface.co/spaces/coolestGuyEver/iris 
 
 ## Task 1: 
 
@@ -26,3 +26,5 @@ In the last assignment, we realised we had made a model-centric change which imp
 For the data-centric improvement, we wanted to finetune an 'expert' doctor type model that could tutor med-school students. Sadly, this was not possible since we ran out of tokens. But we'll reason about what could have happened if we had trained this specialist model. The obvious expected result would be a massive improvement in the models ability to give clear and correct answers to medical questions, which would stand in stark contrast to our 'generalist' finetome models output. 
 
 RE: Our 'creative' idea for the LLM. We created a tutor of sorts that can give students step by step solutions, explanations and hints. This is done by injecting instructions into the LLM before running inference along with the users question, which essentially then sets the 'mode' of the LLM. Hope you like it. 
+
+Please note that inference can take 45-120 seconds depending on the prompt. Average time would be 60-70 seconds though.
