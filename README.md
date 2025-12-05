@@ -27,4 +27,4 @@ For the data-centric improvement, we wanted to finetune an 'expert' doctor type 
 
 RE: Our 'creative' idea for the LLM. We created a tutor of sorts that can give students step by step solutions, explanations and hints. This is done by injecting instructions into the LLM before running inference along with the users question, which essentially then sets the 'mode' of the LLM. Hope you like it. 
 
-Please note that inference can take 45-120 seconds depending on the prompt. Average time would be 60-70 seconds though.
+Please note that inference can take 30-120 seconds depending on the prompt. Average time should be 60-70 seconds though.
